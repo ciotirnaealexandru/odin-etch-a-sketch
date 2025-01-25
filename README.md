@@ -1,2 +1,3 @@
 # odin-etch-a-sketch
-# odin-etch-a-sketch 
+
+A simple sketch board using DOM Manipulation.

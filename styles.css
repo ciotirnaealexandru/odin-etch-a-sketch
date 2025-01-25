@@ -1,0 +1,114 @@
+@import url(https://db.onlinewebfonts.com/c/b65a50ad3e85fe80d05947b061f86445?family=Minuet+W01+Regular);
+
+body {
+    background-color: rgb(255, 209, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:rgb(49, 38, 8);
+}
+
+.red-container {
+    background-color: rgb(210, 41, 41);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 120px 10px 120px;
+}
+
+.big-title {
+    font-family: "Minuet W01 Regular";
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.small-title {
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-style: italic;
+    
+}
+
+input::placeholder {
+    opacity: 1;
+    color: rgb(49, 38, 8);
+}
+
+input:focus{
+    outline: none;
+}
+
+.size{
+    padding: 0px;
+    background-color:rgb(247, 247, 247);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(49, 38, 8);
+    text-align: center;
+    width: 120px;
+}
+
+.color{
+    padding: 0px;
+    border: 0px;
+    background-color:rgb(247, 247, 247);
+    border-radius: 3px;
+}
+
+.start-button {
+    background-color: transparent;
+    border-style: solid;
+    background-color:rgb(247, 247, 247);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(49, 38, 8);
+    text-align: center;
+    width: 80px;
+}
+
+.reset-button {
+    background-color: transparent;
+    border-style: solid;
+    background-color:rgb(247, 247, 247);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(49, 38, 8);
+    text-align: center;
+    margin: 10px 0px;
+    width: 80px;
+}
+
+
+.grid {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
